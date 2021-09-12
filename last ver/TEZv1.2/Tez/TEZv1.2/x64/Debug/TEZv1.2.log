@@ -1,0 +1,63 @@
+﻿  LoginForm.cpp
+c:\users\rabia\desktop\rabia\tez\tezv1.2\FullscreenForm.h(324): warning C4101: 'e': unreferenced local variable
+c:\users\rabia\desktop\rabia\tez\tezv1.2\RegistrationForm.h(500): warning C4101: 'ev': unreferenced local variable
+c:\users\rabia\desktop\rabia\tez\tezv1.2\LoginForm.h(294): warning C4101: 'start': unreferenced local variable
+c:\users\rabia\desktop\rabia\tez\tezv1.2\LoginForm.h(294): warning C4101: 'dur': unreferenced local variable
+  mainApp.cpp
+c:\users\rabia\desktop\rabia\tez\tezv1.2\FullscreenForm.h(324): warning C4101: 'e': unreferenced local variable
+c:\users\rabia\desktop\rabia\tez\tezv1.2\RegistrationForm.h(500): warning C4101: 'ev': unreferenced local variable
+c:\users\rabia\desktop\rabia\tez\tezv1.2\LoginForm.h(294): warning C4101: 'start': unreferenced local variable
+c:\users\rabia\desktop\rabia\tez\tezv1.2\LoginForm.h(294): warning C4101: 'dur': unreferenced local variable
+  Generating Code...
+c:\opencv\build\include\opencv2\core\cvstd.hpp(596): warning C4793: 'cv::String::String': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\cuda.inl.hpp(105): warning C4793: 'cv::cuda::GpuMat::GpuMat': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\cuda.inl.hpp(395): warning C4793: 'cv::cuda::HostMem::HostMem': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(413): warning C4793: 'cv::Mat::Mat': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(703): warning C4793: 'cv::Mat::release': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(1929): warning C4793: 'cv::SparseMat::addref': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(3530): warning C4793: 'cv::UMat::addref': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\cvstd.hpp(673): warning C4793: 'cv::String::operator=': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\cvstd.hpp(596): warning C4793: 'cv::String::String': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\cuda.inl.hpp(105): warning C4793: 'cv::cuda::GpuMat::GpuMat': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\cuda.inl.hpp(395): warning C4793: 'cv::cuda::HostMem::HostMem': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(413): warning C4793: 'cv::Mat::Mat': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(703): warning C4793: 'cv::Mat::release': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(1929): warning C4793: 'cv::SparseMat::addref': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(3530): warning C4793: 'cv::UMat::addref': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\opencv\build\include\opencv2\core\cvstd.hpp(673): warning C4793: 'cv::String::operator=': function compiled as native:
+  	Found an intrinsic not supported in managed code
+  LoginForm.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+mainApp.obj : error LNK2028: unresolved token (0A001295) "public: void __cdecl cv::face::FaceRecognizer::predict(class cv::_InputArray const &,int &,double &)const " (?predict@FaceRecognizer@face@cv@@$$FQEBAXAEBV_InputArray@3@AEAHAEAN@Z) referenced in function "private: void __clrcall TEZv12::LoginForm::autoBTN_Click(class System::Object ^,class System::EventArgs ^)" (?autoBTN_Click@LoginForm@TEZv12@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+LoginForm.obj : error LNK2028: unresolved token (0A001294) "public: void __cdecl cv::face::FaceRecognizer::predict(class cv::_InputArray const &,int &,double &)const " (?predict@FaceRecognizer@face@cv@@$$FQEBAXAEBV_InputArray@3@AEAHAEAN@Z) referenced in function "private: void __clrcall TEZv12::LoginForm::autoBTN_Click(class System::Object ^,class System::EventArgs ^)" (?autoBTN_Click@LoginForm@TEZv12@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+TEST2.obj : error LNK2020: unresolved token (0A001292) "struct cv::Ptr<class cv::face::LBPHFaceRecognizer> __cdecl cv::face::createLBPHFaceRecognizer(int,int,int,int,double)" (?createLBPHFaceRecognizer@face@cv@@$$FYA?AU?$Ptr@VLBPHFaceRecognizer@face@cv@@@2@HHHHN@Z)
+mainApp.obj : error LNK2028: unresolved token (0A001298) "struct cv::Ptr<class cv::face::LBPHFaceRecognizer> __cdecl cv::face::createLBPHFaceRecognizer(int,int,int,int,double)" (?createLBPHFaceRecognizer@face@cv@@$$FYA?AU?$Ptr@VLBPHFaceRecognizer@face@cv@@@2@HHHHN@Z) referenced in function "private: void __clrcall TEZv12::LoginForm::autoBTN_Click(class System::Object ^,class System::EventArgs ^)" (?autoBTN_Click@LoginForm@TEZv12@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+LoginForm.obj : error LNK2028: unresolved token (0A001297) "struct cv::Ptr<class cv::face::LBPHFaceRecognizer> __cdecl cv::face::createLBPHFaceRecognizer(int,int,int,int,double)" (?createLBPHFaceRecognizer@face@cv@@$$FYA?AU?$Ptr@VLBPHFaceRecognizer@face@cv@@@2@HHHHN@Z) referenced in function "private: void __clrcall TEZv12::LoginForm::autoBTN_Click(class System::Object ^,class System::EventArgs ^)" (?autoBTN_Click@LoginForm@TEZv12@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+LoginForm.obj : error LNK2019: unresolved external symbol "struct cv::Ptr<class cv::face::LBPHFaceRecognizer> __cdecl cv::face::createLBPHFaceRecognizer(int,int,int,int,double)" (?createLBPHFaceRecognizer@face@cv@@$$FYA?AU?$Ptr@VLBPHFaceRecognizer@face@cv@@@2@HHHHN@Z) referenced in function "private: void __clrcall TEZv12::LoginForm::autoBTN_Click(class System::Object ^,class System::EventArgs ^)" (?autoBTN_Click@LoginForm@TEZv12@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+mainApp.obj : error LNK2001: unresolved external symbol "struct cv::Ptr<class cv::face::LBPHFaceRecognizer> __cdecl cv::face::createLBPHFaceRecognizer(int,int,int,int,double)" (?createLBPHFaceRecognizer@face@cv@@$$FYA?AU?$Ptr@VLBPHFaceRecognizer@face@cv@@@2@HHHHN@Z)
+TEST2.obj : error LNK2001: unresolved external symbol "struct cv::Ptr<class cv::face::LBPHFaceRecognizer> __cdecl cv::face::createLBPHFaceRecognizer(int,int,int,int,double)" (?createLBPHFaceRecognizer@face@cv@@$$FYA?AU?$Ptr@VLBPHFaceRecognizer@face@cv@@@2@HHHHN@Z)
+LoginForm.obj : error LNK2019: unresolved external symbol "public: void __cdecl cv::face::FaceRecognizer::predict(class cv::_InputArray const &,int &,double &)const " (?predict@FaceRecognizer@face@cv@@$$FQEBAXAEBV_InputArray@3@AEAHAEAN@Z) referenced in function "private: void __clrcall TEZv12::LoginForm::autoBTN_Click(class System::Object ^,class System::EventArgs ^)" (?autoBTN_Click@LoginForm@TEZv12@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+mainApp.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::face::FaceRecognizer::predict(class cv::_InputArray const &,int &,double &)const " (?predict@FaceRecognizer@face@cv@@$$FQEBAXAEBV_InputArray@3@AEAHAEAN@Z)
+C:\Users\Rabia\Desktop\rabia\Tez\x64\Debug\TEZv1.2.exe : fatal error LNK1120: 7 unresolved externals

@@ -1,0 +1,1 @@
+setup.exe -s -f2c:\windows\temp\Audio_Realtek_setup.log /runfromtemp /clone_wait
